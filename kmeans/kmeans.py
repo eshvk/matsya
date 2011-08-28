@@ -237,6 +237,7 @@ class KMeans:
             - `clusters`: A map from centroid ID to list of vectors.
 
             Returns:
+
             - `Q`: A measure of clustering.
         """
         Q = 0
@@ -272,10 +273,9 @@ class KMeans:
 
             Returns:
 
-                - A dict containing `clusters`, `centroids` and `centroiddict`
-                where `clusters` maps cluster IDs to a list of vector IDS,
-                `centroids` is a CSC matrix of all centroids, `centroiddict`
-                is a dict mapping cluster IDS to centroid vector IDS.
+            - `results` : dict containing `clusters`, `centroids`,
+                `centroiddict`.
+
         """
         assert (self.data.shape[1] > self.k), "Number of clusters requested\
         greater than number of vectors"
