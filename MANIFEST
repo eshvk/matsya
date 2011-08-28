@@ -1,0 +1,9 @@
+README.md
+setup.py
+cocluster/__init__.py
+cocluster/cocluster.py
+docs/about.rst
+docs/index.rst
+docs/kmeans.rst
+kmeans/__init__.py
+kmeans/kmeans.py
