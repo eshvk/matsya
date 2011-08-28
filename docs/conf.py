@@ -12,7 +12,6 @@
 # serve to show the default.
 
 import sys, os
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -218,3 +217,9 @@ man_pages = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'http://docs.python.org/': None}
+
+#  Doc Generation
+sys.path.insert(0, os.path.abspath('../kmeans'))
+sys.path.insert(0, os.path.abspath('../cocluster'))
+import kmeans
+import cocluster

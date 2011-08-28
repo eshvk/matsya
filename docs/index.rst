@@ -7,11 +7,13 @@ Welcome to matsya's documentation!
 ==================================
 
 Contents:
-
+---------
 .. toctree::
    :maxdepth: 2
 
-    about
+   about
+   kmeans
+   spectral_coclustering
 
 Indices and tables
 ==================
@@ -19,4 +21,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
 
