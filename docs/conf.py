@@ -40,7 +40,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'matsya'
-copyright = u'2011, eshwaran'
+copyright = u'2011, Eshwaran VK'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -178,7 +178,7 @@ htmlhelp_basename = 'matsyadoc'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'matsya.tex', u'matsya Documentation',
-   u'eshwaran', 'manual'),
+   u'Eshwaran V K', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
