@@ -1,5 +1,5 @@
 argparse==1.1
 numpy==1.6.0
 scipy==0.9.0
-sparsesvd==0.1.5
 nltk==2.0.1rc1
+sparsesvd==0.1.5
