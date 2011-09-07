@@ -3,5 +3,3 @@ numpy==1.6.0
 scipy==0.9.0
 sparsesvd==0.1.5
 nltk==2.0.1rc1
-pyenchant==1.6.5
-pylint==0.24.0
